@@ -6,13 +6,39 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-
+  <PropertyGroup>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Bytex Digital UG (haftungsbeschränkt)</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/BytexDigital/BytexDigital.Blazor.Components.GoogleAnalytics</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Components for implementing Google Analytics in a Blazor app</Description>
+    <Company>Bytex Digital UG (haftungsbeschränkt)</Company>
+    <IsPublishable>True</IsPublishable>
+    <SignAssembly>False</SignAssembly>
+    <PackageProjectUrl>https://github.com/BytexDigital/BytexDigital.Blazor.Components.GoogleAnalytics</PackageProjectUrl>
+    <PackageIcon>logo_squared_128.png</PackageIcon>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion Condition=" '$(VersionSuffix)' != '' ">$(PackageVersion)-$(VersionSuffix)</PackageVersion>
+  </PropertyGroup>
+  
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\LICENSE.md">
+      <Link>LICENSE.md</Link>
+    </Content>
+    <Content Include="..\logo_squared_128.png">
+      <Link>logo_squared_128.png</Link>
+    </Content>
   </ItemGroup>
 
 </Project>
