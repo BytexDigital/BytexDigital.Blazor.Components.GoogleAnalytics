@@ -35,9 +35,13 @@
   <ItemGroup>
     <Content Include="..\LICENSE.md">
       <Link>LICENSE.md</Link>
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </Content>
     <Content Include="..\logo_squared_128.png">
       <Link>logo_squared_128.png</Link>
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </Content>
   </ItemGroup>
 
