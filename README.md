@@ -1,5 +1,5 @@
 # GoogleAnalytics
-This library adds a simple way to integrate Google Analytics in your Blazor WASM/Serverside app. Easy to setup and can easily be made GDPR compliant with our [BytexDigital.Blazor.Components.CookieConsent](https://github.com/BytexDigital/BytexDigital.Blazor.Components.CookieConsent) library.
+This library adds a simple way to integrate Google Analytics in your Blazor WASM/Serverside app. Make your integration of Google Analytics GDPR compliant by using our [BytexDigital.Blazor.Components.CookieConsent](https://github.com/BytexDigital/BytexDigital.Blazor.Components.CookieConsent) library.
 
 ## How to install
 ```ps1
