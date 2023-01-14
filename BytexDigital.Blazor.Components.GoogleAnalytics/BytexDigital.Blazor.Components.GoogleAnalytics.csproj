@@ -21,7 +21,7 @@
     <SignAssembly>False</SignAssembly>
     <PackageProjectUrl>https://github.com/BytexDigital/BytexDigital.Blazor.Components.GoogleAnalytics</PackageProjectUrl>
     <PackageIcon>logo_squared_128.png</PackageIcon>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageVersion Condition=" '$(VersionSuffix)' != '' ">$(PackageVersion)-$(VersionSuffix)</PackageVersion>
   </PropertyGroup>
   
@@ -34,16 +34,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="..\LICENSE.md">
-      <Link>LICENSE.md</Link>
+    <None Include="..\logo_squared_128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
-    </Content>
-    <Content Include="..\logo_squared_128.png">
-      <Link>logo_squared_128.png</Link>
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </Content>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
     <Content Include="..\README.md">
       <Link>README.md</Link>
     </Content>
