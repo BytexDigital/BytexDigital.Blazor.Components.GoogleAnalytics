@@ -39,16 +39,11 @@
       <PackagePath>\</PackagePath>
       <Link>logo_squared_128.png</Link>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\LICENSE.md">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
+      <PackagePath>\</PackagePath>
+      <Link>LICENSE.md</Link>
     </None>
-  </ItemGroup>
-  
-  <ItemGroup>
-    <Content Include="..\README.md">
-      <Link>README.md</Link>
-    </Content>
   </ItemGroup>
 
 </Project>
